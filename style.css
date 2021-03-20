@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
 * {
@@ -11,6 +11,7 @@ body {
 .container {
     padding: 16px;
     background-color: white;
+    box-shadow: 0px 0px 30px gray;
 }
 
 
@@ -57,3 +58,15 @@ a {
 .signin {
     text-align: center;
 }
+
+.vhod {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
